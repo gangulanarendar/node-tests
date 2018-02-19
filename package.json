@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha **/utils.test.js --R mocha-junit-reporter > $CIRCLE_TEST_REPORTS/test-results.xml",
+    "test": "mocha **/utils.test.js --R mocha-junit-reporter > $CIRCLE_TEST_REPORTS/test-results.txt",
     "test-watch": "node --exec \"npm test\" "
   },
   "author": "Narendar",
