@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha **/utils.test.js --R mocha-lcov-reporter > testresults/results.lcov",
+    "test": "mocha **/utils.test.js",
     "test-watch": "node --exec \"npm test\" "
   },
   "author": "Narendar",
@@ -16,6 +16,7 @@
     "supertest": "^3.0.0"
   },
   "dependencies": {
+    "mocha-junit-reporter": "^1.17.0",
     "mocha-lcov-reporter": "^1.3.0"
   }
 }
